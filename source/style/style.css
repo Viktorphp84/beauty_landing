@@ -362,7 +362,7 @@ body {
   height: 3.4425vw;
   border-radius: 1.72125vw;
   border: 0.153vw solid #66C05D;
-  background-image: url(/source/images/vk.svg);
+  background-image: url(../images/vk.svg);
   background-repeat: no-repeat;
   background-origin: content-box;
   background-position: center center;
@@ -378,7 +378,7 @@ body {
   height: 3.4425vw;
   border-radius: 1.72125vw;
   border: 0.153vw solid #66C05D;
-  background-image: url(/source/images/facebook.svg);
+  background-image: url(../images/facebook.svg);
   background-repeat: no-repeat;
   background-origin: content-box;
   background-position: center center;
@@ -394,7 +394,7 @@ body {
   height: 3.4425vw;
   border-radius: 1.72125vw;
   border: 0.153vw solid #66C05D;
-  background-image: url(/source/images/instagram.svg);
+  background-image: url(../images/instagram.svg);
   background-repeat: no-repeat;
   background-origin: content-box;
   background-position: center center;
