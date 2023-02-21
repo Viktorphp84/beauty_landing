@@ -399,6 +399,7 @@ body {
             background-origin: content-box;
             background-position: center center;
             background-color: #ffffff;
+            background-size: calculateSize(22.5vw) calculateSize(22.5vw);
             margin-right: calculateSize(15vw);
             margin-left: calculateSize(80vw);
         }
@@ -417,6 +418,7 @@ body {
             background-origin: content-box;
             background-position: center center;
             background-color: #ffffff;
+            background-size: calculateSize(22.5vw) calculateSize(22.5vw);
             margin-right: calculateSize(15vw);
         }
 
@@ -434,6 +436,7 @@ body {
             background-origin: content-box;
             background-position: center center;
             background-color: #ffffff;
+            background-size: calculateSize(22.5vw) calculateSize(22.5vw);
             margin-right: calculateSize(15vw);
         }
 
@@ -452,6 +455,7 @@ body {
         background-origin: content-box;
         background-position: center center;
         background-color: #ffffff;
+        background-size: calculateSize(22.5vw) calculateSize(22.5vw);
         margin-right: calculateSize(200vw);
     }
     
@@ -480,6 +484,10 @@ body {
         width: calculateSize(165vw);
         height: calculateSize(40vw);
         border-radius: calculateSize(20vw);
+        font-weight: 400;
+        font-size: calculateSize(14vw);
+        line-height: calculateSize(16vw);
+        color: #000000;
     }
 
     button:hover {

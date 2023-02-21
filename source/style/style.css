@@ -350,6 +350,7 @@ body {
   background-origin: content-box;
   background-position: center center;
   background-color: #ffffff;
+  background-size: 1.72125vw 1.72125vw;
   margin-right: 1.1475vw;
   margin-left: 6.12vw;
 }
@@ -366,6 +367,7 @@ body {
   background-origin: content-box;
   background-position: center center;
   background-color: #ffffff;
+  background-size: 1.72125vw 1.72125vw;
   margin-right: 1.1475vw;
 }
 .contacts .soc-net .vk:hover {
@@ -381,6 +383,7 @@ body {
   background-origin: content-box;
   background-position: center center;
   background-color: #ffffff;
+  background-size: 1.72125vw 1.72125vw;
   margin-right: 1.1475vw;
 }
 .contacts .soc-net .facebook:hover {
@@ -396,6 +399,7 @@ body {
   background-origin: content-box;
   background-position: center center;
   background-color: #ffffff;
+  background-size: 1.72125vw 1.72125vw;
   margin-right: 15.3vw;
 }
 .contacts .instagram:hover {
@@ -420,6 +424,10 @@ body {
   width: 12.6225vw;
   height: 3.06vw;
   border-radius: 1.53vw;
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+  color: #000000;
 }
 .contacts button:hover {
   cursor: pointer;
