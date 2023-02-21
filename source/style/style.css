@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Open+Sans:wght@300&family=Permanent+Marker&family=Roboto:wght@400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.top-line {
+  display: flex;
+  background-color: #E5E5E5;
+  width: 100%;
+  height: 3.825vw;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+}
+.top-line a {
+  text-decoration: none;
+  color: #333333;
+  margin-right: 2.295vw;
+}
+
+.second-line {
+  height: 15.0705vw;
+}
+.second-line .logo-line {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #EFEFEF;
+}
+.second-line .logo-line img {
+  width: 6.12vw;
+  height: 6.12vw;
+}
+.second-line .logo-line .left-pair {
+  display: flex;
+  align-items: center;
+}
+.second-line .logo-line .left-pair img {
+  margin-left: -1.9125vw;
+}
+.second-line .logo-line .left-pair p {
+  font-weight: 700;
+  color: #66C05D;
+  font-size: 2.754vw;
+  line-height: 3.213vw;
+  letter-spacing: 0.1em;
+  margin-left: 1.53vw;
+  margin-right: 24.0975vw;
+}
+.second-line .logo-line .right-pair {
+  display: flex;
+  align-items: center;
+}
+.second-line .logo-line .right-pair p {
+  font-size: 1.224vw;
+  line-height: 1.4535vw;
+  color: #000000;
+}
+.second-line .logo-line .right-pair button {
+  width: 13.005vw;
+  height: 3.06vw;
+  border-radius: 1.53vw;
+  border: 0.153vw solid #66C05D;
+  margin-left: 3.06vw;
+  color: #000000;
+  font-size: 1.071vw;
+  font-weight: 400;
+  line-height: 1.224vw;
+}
+.second-line .logo-line .right-pair button:hover {
+  cursor: pointer;
+}
+.second-line .nav-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-line .nav-line a {
+  text-decoration: none;
+  font-size: 1.224vw;
+  line-height: 1.434375vw;
+  color: #000000;
+  margin-right: 3.06vw;
+  margin-top: 2.448vw;
+}
+
+.sale {
+  height: 45.8235vw;
+  background-color: #66C05D;
+}
+.sale .name-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  width: 23.562vw;
+  height: 19.89vw;
+  left: 6.12vw;
+  top: 32.13vw;
+}
+.sale .name-group .text-name {
+  font-weight: 700;
+  font-size: 3.672vw;
+  line-height: 4.303125vw;
+  color: #FFFFFF;
+}
+.sale .name-group .text-summary {
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.53vw;
+  color: #FFFFFF;
+}
+.sale .name-group button {
+  width: 13.005vw;
+  height: 3.06vw;
+  border-radius: 1.53vw;
+  border: 0.153vw solid #ffffff;
+  color: #ffffff;
+  background-color: #66C05D;
+  font-size: 1.071vw;
+  letter-spacing: 0.05em;
+}
+.sale .name-group button:hover {
+  cursor: pointer;
+}
+.sale .images-group .in-circle {
+  position: absolute;
+  height: 45.8235vw;
+  left: 37.179vw;
+  top: 18.8955vw;
+}
+.sale .images-group .ext-circle {
+  height: 45.8235vw;
+  position: absolute;
+  left: 30.2175vw;
+  top: 18.8955vw;
+}
+.sale .images-group .armchair {
+  position: absolute;
+  width: 44.676vw;
+  height: 44.676vw;
+  left: 40.7745vw;
+  top: 20.808vw;
+}
+
+.goods-group {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+}
+.goods-group .car-line {
+  display: flex;
+  justify-content: space-between;
+}
+.goods-group .car-line span {
+  font-weight: 700;
+  font-size: 1.836vw;
+  line-height: 2.142vw;
+  color: #000000;
+  margin-left: 5.5845vw;
+  margin-top: 5.967vw;
+}
+.goods-group .car-line img {
+  width: 14.433255vw;
+  height: 4.647375vw;
+  margin-right: 11.0925vw;
+  margin-top: 5.202vw;
+}
+.goods-group .goods {
+  display: flex;
+  justify-content: center;
+}
+.goods-group .goods .product {
+  display: flex;
+  flex-direction: column;
+  width: 19.5075vw;
+  height: 27.7695vw;
+  margin-right: 2.142vw;
+  margin-top: 1.1475vw;
+  background-color: #ffffff;
+}
+.goods-group .goods .product img {
+  width: 9.5625vw;
+  height: 12.699vw;
+  align-self: center;
+  margin-top: 1.9125vw;
+}
+.goods-group .goods .product .product-name {
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.53vw;
+  margin-top: 1.377vw;
+  margin-left: 0;
+  text-align: center;
+}
+.goods-group .goods .product .product-price {
+  font-weight: 500;
+  font-size: 1.6065vw;
+  line-height: 1.9125vw;
+  align-self: center;
+  letter-spacing: 0.05em;
+  margin-left: 0;
+  margin-top: 0.918vw;
+}
+.goods-group .goods .product button {
+  align-self: center;
+  width: 9.945vw;
+  height: 2.6775vw;
+  border-radius: 1.53vw;
+  border: 1px solid #66C05D;
+  background-color: #66C05D;
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-top: 1.1475vw;
+}
+.goods-group .goods .product button:hover {
+  cursor: pointer;
+}
+
+.subscribe-and-shops {
+  display: flex;
+  justify-content: center;
+  height: 33.966vw;
+  background-color: #EFEFEF;
+}
+.subscribe-and-shops .subscribe {
+  display: flex;
+  width: 41.31vw;
+  height: 16.218vw;
+  background: #66C05D;
+  margin-top: 7.344vw;
+  margin-left: -2.0655vw;
+}
+.subscribe-and-shops .subscribe div {
+  display: flex;
+  flex-direction: column;
+}
+.subscribe-and-shops .subscribe div .subscription-title {
+  font-weight: 700;
+  font-size: 1.377vw;
+  line-height: 1.6065vw;
+  color: #FFFFFF;
+  align-self: center;
+  margin-top: 2.6775vw;
+  margin-left: 3.06vw;
+}
+.subscribe-and-shops .subscribe div .subscription-description {
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.53vw;
+  color: #FFFFFF;
+  align-self: center;
+  margin-top: 1.53vw;
+  margin-left: 1.53vw;
+}
+.subscribe-and-shops .subscribe div form {
+  margin-left: 3.06vw;
+  margin-top: 1.7595vw;
+}
+.subscribe-and-shops .subscribe div form input {
+  width: 15.453vw;
+  height: 2.6775vw;
+  border-radius: 1.53vw;
+  border: 1px solid #66C05D;
+  padding-left: 1.9125vw;
+  padding-bottom: 4px;
+}
+.subscribe-and-shops .subscribe div form input::-moz-placeholder {
+  color: #C4C4C4;
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+}
+.subscribe-and-shops .subscribe div form input::placeholder {
+  color: #C4C4C4;
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+}
+.subscribe-and-shops .subscribe img {
+  width: 10.71vw;
+  height: 10.71vw;
+  margin-left: 4.9725vw;
+  margin-top: 2.754vw;
+}
+.subscribe-and-shops .shops {
+  display: flex;
+  flex-direction: column;
+  width: 41.31vw;
+  height: 16.218vw;
+  background-color: #66C05D;
+  margin-left: 2.295vw;
+  margin-top: 7.344vw;
+}
+.subscribe-and-shops .shops .shops-title {
+  font-weight: 700;
+  font-size: 1.377vw;
+  line-height: 1.6065vw;
+  color: #FFFFFF;
+  margin-left: 3.06vw;
+  margin-top: 2.6775VW;
+}
+.subscribe-and-shops .shops .shops-description {
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.53vw;
+  color: #FFFFFF;
+  margin-left: 3.06vw;
+  margin-top: 1.53VW;
+}
+.subscribe-and-shops .shops button {
+  width: 12.852vw;
+  height: 2.6775vw;
+  border-radius: 1.53vw;
+  border: 0.153vw solid #ffffff;
+  background-color: #66C05D;
+  margin-left: 3.06vw;
+  color: #ffffff;
+  margin-top: 1.9125VW;
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+}
+.subscribe-and-shops .shops button:hover {
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  height: 8.415vw;
+  align-items: center;
+}
+.contacts .soc-net .youtube {
+  width: 3.4425vw;
+  height: 3.4425vw;
+  border-radius: 1.72125vw;
+  border: 0.153vw solid #66C05D;
+  background-image: url(/source/images/youtub.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center center;
+  background-color: #ffffff;
+  margin-right: 1.1475vw;
+  margin-left: 6.12vw;
+}
+.contacts .soc-net .youtube:hover {
+  cursor: pointer;
+}
+.contacts .soc-net .vk {
+  width: 3.4425vw;
+  height: 3.4425vw;
+  border-radius: 1.72125vw;
+  border: 0.153vw solid #66C05D;
+  background-image: url(/source/images/vk.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center center;
+  background-color: #ffffff;
+  margin-right: 1.1475vw;
+}
+.contacts .soc-net .vk:hover {
+  cursor: pointer;
+}
+.contacts .soc-net .facebook {
+  width: 3.4425vw;
+  height: 3.4425vw;
+  border-radius: 1.72125vw;
+  border: 0.153vw solid #66C05D;
+  background-image: url(/source/images/facebook.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center center;
+  background-color: #ffffff;
+  margin-right: 1.1475vw;
+}
+.contacts .soc-net .facebook:hover {
+  cursor: pointer;
+}
+.contacts .instagram {
+  width: 3.4425vw;
+  height: 3.4425vw;
+  border-radius: 1.72125vw;
+  border: 0.153vw solid #66C05D;
+  background-image: url(/source/images/instagram.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center center;
+  background-color: #ffffff;
+  margin-right: 15.3vw;
+}
+.contacts .instagram:hover {
+  cursor: pointer;
+}
+.contacts .contacts-address {
+  font-weight: 400;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
+  color: #000000;
+  margin-right: 7.956vw;
+}
+.contacts .contacts-tel {
+  font-weight: 400;
+  font-size: 1.224vw;
+  line-height: 1.4535vw;
+  color: #000000;
+  margin-right: 3.06vw;
+}
+.contacts button {
+  border: 0.153vw solid #66C05D;
+  width: 12.6225vw;
+  height: 3.06vw;
+  border-radius: 1.53vw;
+}
+.contacts button:hover {
+  cursor: pointer;
+}
+
+.small-print {
+  display: flex;
+  align-items: center;
+  height: 5.355vw;
+  background-color: #EFEFEF;
+}
+.small-print span {
+  font-weight: 400;
+  font-size: 0.918vw;
+  line-height: 1.071vw;
+  color: #828282;
+}
+.small-print .small-print-left {
+  margin-left: 6.12vw;
+  margin-right: 26.3925vw;
+}/*# sourceMappingURL=style.css.map */
