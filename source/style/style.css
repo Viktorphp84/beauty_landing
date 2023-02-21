@@ -345,7 +345,7 @@ body {
   height: 3.4425vw;
   border-radius: 1.72125vw;
   border: 0.153vw solid #66C05D;
-  background-image: url(../../source/images/youtub.svg);
+  background-image: url(/source/images/youtub.svg);
   background-repeat: no-repeat;
   background-origin: content-box;
   background-position: center center;
