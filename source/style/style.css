@@ -266,6 +266,9 @@ body {
 .subscribe-and-shops .subscribe div form {
   margin-left: 3.06vw;
   margin-top: 1.7595vw;
+  display: flex;
+  align-items: center;
+  height: 2.6775vw;
 }
 .subscribe-and-shops .subscribe div form input {
   width: 15.453vw;
@@ -274,6 +277,8 @@ body {
   border: 1px solid #66C05D;
   padding-left: 1.9125vw;
   padding-bottom: 4px;
+  font-size: 1.071vw;
+  line-height: 1.224vw;
 }
 .subscribe-and-shops .subscribe div form input::-moz-placeholder {
   color: #C4C4C4;

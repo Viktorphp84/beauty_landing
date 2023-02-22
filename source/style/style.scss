@@ -307,6 +307,9 @@ body {
             form {
                 margin-left: calculateSize(40vw);
                 margin-top: calculateSize(23vw);
+                display: flex;
+                align-items: center;
+                height: calculateSize(35vw);
 
                 input {
                     width: calculateSize(202vw);
@@ -315,6 +318,9 @@ body {
                     border: 1px solid #66C05D;
                     padding-left: calculateSize(25vw);
                     padding-bottom: 4px;
+                    
+                    font-size: calculateSize(14vw);
+                    line-height: calculateSize(16vw);
                 }
 
                 input::placeholder {
